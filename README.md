@@ -24,12 +24,16 @@ The database consists of several tables, each serving a specific purpose within 
 - Program_Organizer: Manages the relationship between programs and organizers.
 - Trainer_PhoneNumbers: Manages trainer phone numbers.
 - Program_Beneficiary: Manages the relationship between programs and beneficiaries.
+
+
 #Security
 Security is a crucial aspect of the system, with specific privileges granted to different user roles to ensure data integrity and confidentiality. Below is a summary of user roles and their respective privileges:
 - Head Organizer: Has full access to view, insert, update, and delete records related to beneficiaries, organizers, programs, and courses.
 - Organizer (e.g., Hassan Farsi): Can execute specific procedures to manage programs and courses and has selective access to relevant tables.
 - Trainer (e.g., Jane Smith): Can update and view courses they are responsible for and view their schedules.
 - Beneficiary (e.g., Khaled Mohammed): Can view their schedules and available courses.
+
+
 #User Interface
 - Flowchart and Data Movement Diagrams
 The user interface includes various diagrams to illustrate data flow and interactions for different user roles:
@@ -37,9 +41,11 @@ The user interface includes various diagrams to illustrate data flow and interac
 - Trainer: Manages and views courses they are responsible for.
 - Organizer: Manages programs, courses, and schedules.
 - Head Organizer: Oversees all aspects of the database, ensuring data integrity and smooth operations.
+
+
+
 #Interfaces Development
 The user interface consists of several pages, each designed to facilitate specific tasks for the users:
-
 - Home Page: Allows the head organizer to view and navigate to tables they have permission to edit.
 - Organizer View Table: Displays records from the organizer table with options to edit, delete, or add records.
 - Editing Record Page: Enables editing of selected record attributes.
